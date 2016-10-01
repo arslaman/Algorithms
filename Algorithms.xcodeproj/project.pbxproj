@@ -13,6 +13,9 @@
 		9F68E6601D9FEEB5003EF2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F68E65F1D9FEEB5003EF2BA /* Assets.xcassets */; };
 		9F68E6631D9FEEB5003EF2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F68E6611D9FEEB5003EF2BA /* LaunchScreen.storyboard */; };
 		9F68E66E1D9FEEB5003EF2BA /* AlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E66D1D9FEEB5003EF2BA /* AlgorithmsTests.swift */; };
+		9F68E67A1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6791D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift */; };
+		9F68E67B1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6791D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift */; };
+		9F68E67D1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E67C1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 		9F68E6691D9FEEB5003EF2BA /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F68E66D1D9FEEB5003EF2BA /* AlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsTests.swift; sourceTree = "<group>"; };
 		9F68E66F1D9FEEB5003EF2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F68E6791D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinInSortedShiftedArray.swift; sourceTree = "<group>"; };
+		9F68E67C1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinInSortedShiftedArrayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		9F68E6571D9FEEB5003EF2BA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				9F68E6781D9FF19E003EF2BA /* Arrays */,
 				9F68E6581D9FEEB5003EF2BA /* AppDelegate.swift */,
 				9F68E65A1D9FEEB5003EF2BA /* ViewController.swift */,
 				9F68E65C1D9FEEB5003EF2BA /* Main.storyboard */,
@@ -90,10 +96,27 @@
 		9F68E66C1D9FEEB5003EF2BA /* AlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
+				9F68E67F1D9FF1EE003EF2BA /* Arrays */,
 				9F68E66D1D9FEEB5003EF2BA /* AlgorithmsTests.swift */,
 				9F68E66F1D9FEEB5003EF2BA /* Info.plist */,
 			);
 			path = AlgorithmsTests;
+			sourceTree = "<group>";
+		};
+		9F68E6781D9FF19E003EF2BA /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				9F68E6791D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift */,
+			);
+			name = Arrays;
+			sourceTree = "<group>";
+		};
+		9F68E67F1D9FF1EE003EF2BA /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				9F68E67C1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift */,
+			);
+			name = Arrays;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +224,7 @@
 			files = (
 				9F68E65B1D9FEEB5003EF2BA /* ViewController.swift in Sources */,
 				9F68E6591D9FEEB5003EF2BA /* AppDelegate.swift in Sources */,
+				9F68E67A1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F68E67D1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift in Sources */,
+				9F68E67B1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
 				9F68E66E1D9FEEB5003EF2BA /* AlgorithmsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
