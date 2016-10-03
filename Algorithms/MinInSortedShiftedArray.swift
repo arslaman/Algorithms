@@ -14,30 +14,24 @@
 //
 
 import Foundation
-
-class MinInSortedShiftedArray {
     
-    func min(array: [Int]) -> Int? {
-        if array.count == 0 {
-            return nil
-        }
-        
-        var left = 0
-        var right = array.count - 1
-        
-        while right - left != 1 {
-            let center = (right - left) / 2 + left
-            if array[center] > array[left] {
-                left = center
-            } else {
-                right = center
-            }
-        }
-        
-        if array[left] > array[right] {
+func minInSortedShiftedArray(array: [Int]) -> Int? {
+    if array.count == 0 {
+        return nil
+    }
+    
+    var left = 0
+    var right = array.count - 1
+    
+    while left < right {
+        let center = (right - left) / 2 + left
+        if left + 1 == right && array[left] > array[right] {
             return array[right]
+        } else if array[center] > array[left] {
+            left = center
         } else {
-            return array[0]
+            right = center
         }
     }
+    return array[0]
 }
