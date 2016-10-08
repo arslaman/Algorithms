@@ -19,6 +19,9 @@
 		9F68E6811DA001F3003EF2BA /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6801DA001F3003EF2BA /* BinarySearch.swift */; };
 		9F68E6821DA001F3003EF2BA /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6801DA001F3003EF2BA /* BinarySearch.swift */; };
 		9F68E6841DA002F3003EF2BA /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6831DA002F3003EF2BA /* BinarySearchTests.swift */; };
+		9FAEBFD51DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBFD41DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift */; };
+		9FAEBFD61DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBFD41DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift */; };
+		9FAEBFD81DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBFD71DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,8 @@
 		9F68E67C1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinInSortedShiftedArrayTests.swift; sourceTree = "<group>"; };
 		9F68E6801DA001F3003EF2BA /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		9F68E6831DA002F3003EF2BA /* BinarySearchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
+		9FAEBFD41DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixChangeRowsAndLinesToZero.swift; sourceTree = "<group>"; };
+		9FAEBFD71DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixChangeRowsAndLinesToZeroTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,7 @@
 			children = (
 				9F68E6791D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift */,
 				9F68E6801DA001F3003EF2BA /* BinarySearch.swift */,
+				9FAEBFD41DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift */,
 			);
 			name = Arrays;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			children = (
 				9F68E67C1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift */,
 				9F68E6831DA002F3003EF2BA /* BinarySearchTests.swift */,
+				9FAEBFD71DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift */,
 			);
 			name = Arrays;
 			sourceTree = "<group>";
@@ -232,6 +239,7 @@
 				9F68E6811DA001F3003EF2BA /* BinarySearch.swift in Sources */,
 				9F68E65B1D9FEEB5003EF2BA /* ViewController.swift in Sources */,
 				9F68E6591D9FEEB5003EF2BA /* AppDelegate.swift in Sources */,
+				9FAEBFD51DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */,
 				9F68E67A1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,8 +250,10 @@
 			files = (
 				9F68E6821DA001F3003EF2BA /* BinarySearch.swift in Sources */,
 				9F68E6841DA002F3003EF2BA /* BinarySearchTests.swift in Sources */,
+				9FAEBFD61DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */,
 				9F68E67D1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift in Sources */,
 				9F68E67B1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
+				9FAEBFD81DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift in Sources */,
 				9F68E66E1D9FEEB5003EF2BA /* AlgorithmsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +452,7 @@
 				9F68E6741D9FEEB5003EF2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F68E6751D9FEEB5003EF2BA /* Build configuration list for PBXNativeTarget "AlgorithmsTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +461,7 @@
 				9F68E6771D9FEEB5003EF2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
