@@ -25,6 +25,9 @@
 		9FC472C71DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC472C61DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift */; };
 		9FC472C81DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC472C61DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift */; };
 		9FC472CB1DA932BE00FBE030 /* IsStringHasAllUniqueCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC472CA1DA932BE00FBE030 /* IsStringHasAllUniqueCharactersTests.swift */; };
+		9FC472CD1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC472CC1DA93B3A00FBE030 /* AllPermutationsOfString.swift */; };
+		9FC472CE1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC472CC1DA93B3A00FBE030 /* AllPermutationsOfString.swift */; };
+		9FC472D01DA9403B00FBE030 /* AllPermutationsOfStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC472CF1DA9403B00FBE030 /* AllPermutationsOfStringTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,8 @@
 		9FAEBFD71DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixChangeRowsAndLinesToZeroTests.swift; sourceTree = "<group>"; };
 		9FC472C61DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsStringHasAllUniqueCharacters.swift; sourceTree = "<group>"; };
 		9FC472CA1DA932BE00FBE030 /* IsStringHasAllUniqueCharactersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsStringHasAllUniqueCharactersTests.swift; sourceTree = "<group>"; };
+		9FC472CC1DA93B3A00FBE030 /* AllPermutationsOfString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPermutationsOfString.swift; sourceTree = "<group>"; };
+		9FC472CF1DA9403B00FBE030 /* AllPermutationsOfStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPermutationsOfStringTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				9FC472C61DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift */,
+				9FC472CC1DA93B3A00FBE030 /* AllPermutationsOfString.swift */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -152,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				9FC472CA1DA932BE00FBE030 /* IsStringHasAllUniqueCharactersTests.swift */,
+				9FC472CF1DA9403B00FBE030 /* AllPermutationsOfStringTests.swift */,
 			);
 			name = Strings;
 			sourceTree = "<group>";
@@ -265,6 +272,7 @@
 				9F68E6591D9FEEB5003EF2BA /* AppDelegate.swift in Sources */,
 				9FAEBFD51DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */,
 				9F68E67A1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
+				9FC472CD1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +282,12 @@
 			files = (
 				9FC472CB1DA932BE00FBE030 /* IsStringHasAllUniqueCharactersTests.swift in Sources */,
 				9F68E6821DA001F3003EF2BA /* BinarySearch.swift in Sources */,
+				9FC472D01DA9403B00FBE030 /* AllPermutationsOfStringTests.swift in Sources */,
 				9F68E6841DA002F3003EF2BA /* BinarySearchTests.swift in Sources */,
 				9FAEBFD61DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */,
 				9F68E67D1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift in Sources */,
 				9F68E67B1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
+				9FC472CE1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */,
 				9FAEBFD81DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift in Sources */,
 				9FC472C81DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift in Sources */,
 				9F68E66E1D9FEEB5003EF2BA /* AlgorithmsTests.swift in Sources */,
