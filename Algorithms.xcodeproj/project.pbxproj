@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3D6C651DAA9DD700911E80 /* IsAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */; };
+		9F3D6C671DAAA04800911E80 /* IsAnagramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C661DAAA04800911E80 /* IsAnagramsTests.swift */; };
+		9F3D6C681DAAA09400911E80 /* IsAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */; };
 		9F68E6591D9FEEB5003EF2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6581D9FEEB5003EF2BA /* AppDelegate.swift */; };
 		9F68E65B1D9FEEB5003EF2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E65A1D9FEEB5003EF2BA /* ViewController.swift */; };
 		9F68E65E1D9FEEB5003EF2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F68E65C1D9FEEB5003EF2BA /* Main.storyboard */; };
@@ -41,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsAnagrams.swift; sourceTree = "<group>"; };
+		9F3D6C661DAAA04800911E80 /* IsAnagramsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsAnagramsTests.swift; sourceTree = "<group>"; };
 		9F68E6551D9FEEB5003EF2BA /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F68E6581D9FEEB5003EF2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F68E65A1D9FEEB5003EF2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +155,7 @@
 			children = (
 				9FC472C61DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift */,
 				9FC472CC1DA93B3A00FBE030 /* AllPermutationsOfString.swift */,
+				9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -159,6 +165,7 @@
 			children = (
 				9FC472CA1DA932BE00FBE030 /* IsStringHasAllUniqueCharactersTests.swift */,
 				9FC472CF1DA9403B00FBE030 /* AllPermutationsOfStringTests.swift */,
+				9F3D6C661DAAA04800911E80 /* IsAnagramsTests.swift */,
 			);
 			name = Strings;
 			sourceTree = "<group>";
@@ -267,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC472C71DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift in Sources */,
+				9F3D6C651DAA9DD700911E80 /* IsAnagrams.swift in Sources */,
 				9F68E6811DA001F3003EF2BA /* BinarySearch.swift in Sources */,
 				9F68E65B1D9FEEB5003EF2BA /* ViewController.swift in Sources */,
 				9F68E6591D9FEEB5003EF2BA /* AppDelegate.swift in Sources */,
@@ -285,8 +293,10 @@
 				9FC472D01DA9403B00FBE030 /* AllPermutationsOfStringTests.swift in Sources */,
 				9F68E6841DA002F3003EF2BA /* BinarySearchTests.swift in Sources */,
 				9FAEBFD61DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */,
+				9F3D6C671DAAA04800911E80 /* IsAnagramsTests.swift in Sources */,
 				9F68E67D1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift in Sources */,
 				9F68E67B1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
+				9F3D6C681DAAA09400911E80 /* IsAnagrams.swift in Sources */,
 				9FC472CE1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */,
 				9FAEBFD81DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift in Sources */,
 				9FC472C81DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift in Sources */,
