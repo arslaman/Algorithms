@@ -10,6 +10,8 @@
 		9F3D6C651DAA9DD700911E80 /* IsAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */; };
 		9F3D6C671DAAA04800911E80 /* IsAnagramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C661DAAA04800911E80 /* IsAnagramsTests.swift */; };
 		9F3D6C681DAAA09400911E80 /* IsAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */; };
+		9F3D6C6B1DAAB10F00911E80 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C6A1DAAB10F00911E80 /* ListNode.swift */; };
+		9F3D6C6C1DAAB10F00911E80 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C6A1DAAB10F00911E80 /* ListNode.swift */; };
 		9F68E6591D9FEEB5003EF2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6581D9FEEB5003EF2BA /* AppDelegate.swift */; };
 		9F68E65B1D9FEEB5003EF2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E65A1D9FEEB5003EF2BA /* ViewController.swift */; };
 		9F68E65E1D9FEEB5003EF2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F68E65C1D9FEEB5003EF2BA /* Main.storyboard */; };
@@ -22,6 +24,9 @@
 		9F68E6811DA001F3003EF2BA /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6801DA001F3003EF2BA /* BinarySearch.swift */; };
 		9F68E6821DA001F3003EF2BA /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6801DA001F3003EF2BA /* BinarySearch.swift */; };
 		9F68E6841DA002F3003EF2BA /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F68E6831DA002F3003EF2BA /* BinarySearchTests.swift */; };
+		9F7EF8571DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EF8561DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift */; };
+		9F7EF8581DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EF8561DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift */; };
+		9F7EF85B1DAAB5E800DF0F6D /* RemoveDuplicatesInLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EF85A1DAAB5E800DF0F6D /* RemoveDuplicatesInLinkedListTests.swift */; };
 		9FAEBFD51DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBFD41DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift */; };
 		9FAEBFD61DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBFD41DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift */; };
 		9FAEBFD81DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAEBFD71DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift */; };
@@ -46,6 +51,7 @@
 /* Begin PBXFileReference section */
 		9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsAnagrams.swift; sourceTree = "<group>"; };
 		9F3D6C661DAAA04800911E80 /* IsAnagramsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsAnagramsTests.swift; sourceTree = "<group>"; };
+		9F3D6C6A1DAAB10F00911E80 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		9F68E6551D9FEEB5003EF2BA /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F68E6581D9FEEB5003EF2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F68E65A1D9FEEB5003EF2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,8 @@
 		9F68E67C1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinInSortedShiftedArrayTests.swift; sourceTree = "<group>"; };
 		9F68E6801DA001F3003EF2BA /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		9F68E6831DA002F3003EF2BA /* BinarySearchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
+		9F7EF8561DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesInLinkedList.swift; sourceTree = "<group>"; };
+		9F7EF85A1DAAB5E800DF0F6D /* RemoveDuplicatesInLinkedListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesInLinkedListTests.swift; sourceTree = "<group>"; };
 		9FAEBFD41DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixChangeRowsAndLinesToZero.swift; sourceTree = "<group>"; };
 		9FAEBFD71DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixChangeRowsAndLinesToZeroTests.swift; sourceTree = "<group>"; };
 		9FC472C61DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsStringHasAllUniqueCharacters.swift; sourceTree = "<group>"; };
@@ -86,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F3D6C691DAAB0F600911E80 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D6C6A1DAAB10F00911E80 /* ListNode.swift */,
+				9F7EF8561DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
 		9F68E64C1D9FEEB5003EF2BA = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +124,7 @@
 		9F68E6571D9FEEB5003EF2BA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				9F3D6C691DAAB0F600911E80 /* List */,
 				9FC472C51DA9309300FBE030 /* String */,
 				9F68E6781D9FF19E003EF2BA /* Arrays */,
 				9F68E6581D9FEEB5003EF2BA /* AppDelegate.swift */,
@@ -122,6 +140,7 @@
 		9F68E66C1D9FEEB5003EF2BA /* AlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
+				9F7EF8591DAAB5CC00DF0F6D /* List */,
 				9FC472C91DA932AA00FBE030 /* Strings */,
 				9F68E67F1D9FF1EE003EF2BA /* Arrays */,
 				9F68E66D1D9FEEB5003EF2BA /* AlgorithmsTests.swift */,
@@ -148,6 +167,14 @@
 				9FAEBFD71DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift */,
 			);
 			name = Arrays;
+			sourceTree = "<group>";
+		};
+		9F7EF8591DAAB5CC00DF0F6D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				9F7EF85A1DAAB5E800DF0F6D /* RemoveDuplicatesInLinkedListTests.swift */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 		9FC472C51DA9309300FBE030 /* String */ = {
@@ -276,10 +303,12 @@
 				9FC472C71DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift in Sources */,
 				9F3D6C651DAA9DD700911E80 /* IsAnagrams.swift in Sources */,
 				9F68E6811DA001F3003EF2BA /* BinarySearch.swift in Sources */,
+				9F7EF8571DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift in Sources */,
 				9F68E65B1D9FEEB5003EF2BA /* ViewController.swift in Sources */,
 				9F68E6591D9FEEB5003EF2BA /* AppDelegate.swift in Sources */,
 				9FAEBFD51DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */,
 				9F68E67A1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
+				9F3D6C6B1DAAB10F00911E80 /* ListNode.swift in Sources */,
 				9FC472CD1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +325,10 @@
 				9F3D6C671DAAA04800911E80 /* IsAnagramsTests.swift in Sources */,
 				9F68E67D1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift in Sources */,
 				9F68E67B1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
+				9F7EF8581DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift in Sources */,
 				9F3D6C681DAAA09400911E80 /* IsAnagrams.swift in Sources */,
+				9F3D6C6C1DAAB10F00911E80 /* ListNode.swift in Sources */,
+				9F7EF85B1DAAB5E800DF0F6D /* RemoveDuplicatesInLinkedListTests.swift in Sources */,
 				9FC472CE1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */,
 				9FAEBFD81DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift in Sources */,
 				9FC472C81DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift in Sources */,
