@@ -10,27 +10,12 @@ import XCTest
 
 class RemoveDuplicatesInLinkedListTests: XCTestCase {
     
-    func testExample() {
-        let head = list(array: [0, 0, 1, 2, 1, 3, 0, 3])
-        let expectedHead = list(array: [0, 1, 2, 3])
+    func test() {
+        let head = LinkedList<Int>(array: [0, 0, 1, 2, 1, 3, 0, 3]).head
+        let expectedHead = LinkedList<Int>(array: [0, 1, 2, 3]).head
         let resultHead = removeDuplicatesInLinkedList(head: head)
         
         compare(head1: resultHead, head2: expectedHead)
-    }
-    
-    func list(array: [Int]) -> ListNode<Int> {
-        assert(!array.isEmpty, "Array must not be empty")
-        
-        let head = ListNode<Int>(value: array.first!)
-        
-        var node = head
-        for i in 1...array.count - 1 {
-            let value = array[i]
-            node.next = ListNode<Int>(value: value)
-            node = node.next!
-        }
-        
-        return head
     }
     
     func compare(head1: ListNode<Int>, head2: ListNode<Int>) {
