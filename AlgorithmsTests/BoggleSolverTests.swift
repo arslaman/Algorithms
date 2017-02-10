@@ -10,7 +10,7 @@ import XCTest
 
 class BoggleSolverTests: XCTestCase {
     
-    func test() {
+    func testWithSuitableWords() {
         
         let matrix = [
             ["C", "A", "T"],
@@ -18,7 +18,7 @@ class BoggleSolverTests: XCTestCase {
             ["A", "I", "R"],
             ]
         
-        let englishWords = ["CAT", "COT", "HAT" ,"HOT", "OAT", "PAT", "COAT", "CHAT", "HAIR", "CHOIR", "CHAIR", "POP"]
+        let englishWords = ["CAT", "COT", "HAT" ,"HOT", "OAT", "PAT", "COAT", "CHAT", "HAIR", "CHOIR", "CHAIR"]
         
         let isEnglishWord = {(word: String) -> Bool in
             let words = Set<String>(englishWords)
@@ -30,8 +30,47 @@ class BoggleSolverTests: XCTestCase {
         
         let words = findWords(grid: matrix, isEnglishWordFunction: isEnglishWord)
         
-        // array of english words contains "POP" which is not suitable for our grid (P is used 2 times)
-        assert(englishWords.count - 1 == words.count)
-        assert(!words.contains("POP"))
+        assert(englishWords.count == words.count)
+        for word in englishWords {
+            assert(words.contains(word))
+        }
+    }
+    
+    func testWithNoEnglishWords() {
+        
+        let matrix = [
+            ["C", "A", "T"],
+            ["H", "O", "P"],
+            ["A", "I", "R"],
+            ]
+        
+        let isEnglishWord = {(word: String) -> Bool in
+            return false
+        }
+        
+        let words = findWords(grid: matrix, isEnglishWordFunction: isEnglishWord)
+        assert(words.isEmpty)
+    }
+    
+    func testWithWordsThatShouldntBeInResult() {
+        
+        let matrix = [
+            ["C", "A", "T"],
+            ["H", "O", "P"],
+            ["A", "I", "R"],
+            ]
+        
+        let englishWords = ["POP", "TOT", "PROP", "RICH", "CRIP", "ACT"]
+        
+        let isEnglishWord = {(word: String) -> Bool in
+            let words = Set<String>(englishWords)
+            if words.contains(word) {
+                return true
+            }
+            return false
+        }
+        
+        let words = findWords(grid: matrix, isEnglishWordFunction: isEnglishWord)
+        assert(words.isEmpty)
     }
 }
