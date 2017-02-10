@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4486A4181E4CBC8600BEA153 /* BoggleSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486A4171E4CBC8600BEA153 /* BoggleSolver.swift */; };
+		4486A4191E4CBC8600BEA153 /* BoggleSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486A4171E4CBC8600BEA153 /* BoggleSolver.swift */; };
+		4486A41C1E4CC84D00BEA153 /* BoggleSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4486A41A1E4CC84D00BEA153 /* BoggleSolverTests.swift */; };
 		9F3D6C651DAA9DD700911E80 /* IsAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */; };
 		9F3D6C671DAAA04800911E80 /* IsAnagramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C661DAAA04800911E80 /* IsAnagramsTests.swift */; };
 		9F3D6C681DAAA09400911E80 /* IsAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */; };
@@ -54,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4486A4171E4CBC8600BEA153 /* BoggleSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoggleSolver.swift; sourceTree = "<group>"; };
+		4486A41A1E4CC84D00BEA153 /* BoggleSolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoggleSolverTests.swift; sourceTree = "<group>"; };
 		9F3D6C641DAA9DD700911E80 /* IsAnagrams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsAnagrams.swift; sourceTree = "<group>"; };
 		9F3D6C661DAAA04800911E80 /* IsAnagramsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsAnagramsTests.swift; sourceTree = "<group>"; };
 		9F3D6C6A1DAAB10F00911E80 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -165,6 +170,7 @@
 				9F68E6791D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift */,
 				9F68E6801DA001F3003EF2BA /* BinarySearch.swift */,
 				9FAEBFD41DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift */,
+				4486A4171E4CBC8600BEA153 /* BoggleSolver.swift */,
 			);
 			name = Arrays;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 				9F68E67C1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift */,
 				9F68E6831DA002F3003EF2BA /* BinarySearchTests.swift */,
 				9FAEBFD71DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift */,
+				4486A41A1E4CC84D00BEA153 /* BoggleSolverTests.swift */,
 			);
 			name = Arrays;
 			sourceTree = "<group>";
@@ -317,6 +324,7 @@
 				9F7EF8571DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift in Sources */,
 				9F68E65B1D9FEEB5003EF2BA /* ViewController.swift in Sources */,
 				9F68E6591D9FEEB5003EF2BA /* AppDelegate.swift in Sources */,
+				4486A4181E4CBC8600BEA153 /* BoggleSolver.swift in Sources */,
 				9F7EF8601DAC333C00DF0F6D /* LinkedList.swift in Sources */,
 				9FAEBFD51DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */,
 				9F68E67A1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
@@ -334,6 +342,7 @@
 				9FC472CB1DA932BE00FBE030 /* IsStringHasAllUniqueCharactersTests.swift in Sources */,
 				9F68E6821DA001F3003EF2BA /* BinarySearch.swift in Sources */,
 				9FC472D01DA9403B00FBE030 /* AllPermutationsOfStringTests.swift in Sources */,
+				4486A4191E4CBC8600BEA153 /* BoggleSolver.swift in Sources */,
 				9F68E6841DA002F3003EF2BA /* BinarySearchTests.swift in Sources */,
 				9FAEBFD61DA8EEF100408356 /* MatrixChangeRowsAndLinesToZero.swift in Sources */,
 				9F3D6C671DAAA04800911E80 /* IsAnagramsTests.swift in Sources */,
@@ -345,6 +354,7 @@
 				9F7EF8631DAC384A00DF0F6D /* AddTheNumbersRepresentedByListsTests.swift in Sources */,
 				9F7EF85B1DAAB5E800DF0F6D /* RemoveDuplicatesInLinkedListTests.swift in Sources */,
 				9FC472CE1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */,
+				4486A41C1E4CC84D00BEA153 /* BoggleSolverTests.swift in Sources */,
 				9FAEBFD81DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift in Sources */,
 				9FC472C81DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift in Sources */,
 				9F68E66E1D9FEEB5003EF2BA /* AlgorithmsTests.swift in Sources */,
