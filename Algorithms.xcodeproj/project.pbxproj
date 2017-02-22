@@ -53,6 +53,9 @@
 		9FC472CD1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC472CC1DA93B3A00FBE030 /* AllPermutationsOfString.swift */; };
 		9FC472CE1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC472CC1DA93B3A00FBE030 /* AllPermutationsOfString.swift */; };
 		9FC472D01DA9403B00FBE030 /* AllPermutationsOfStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC472CF1DA9403B00FBE030 /* AllPermutationsOfStringTests.swift */; };
+		9FF3D4541E5DF15300B2C166 /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3D4531E5DF15300B2C166 /* MergeIntervals.swift */; };
+		9FF3D4551E5DF15800B2C166 /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3D4531E5DF15300B2C166 /* MergeIntervals.swift */; };
+		9FF3D4571E5DF3D400B2C166 /* MergeIntervalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3D4561E5DF3D400B2C166 /* MergeIntervalsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +105,8 @@
 		9FC472CA1DA932BE00FBE030 /* IsStringHasAllUniqueCharactersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsStringHasAllUniqueCharactersTests.swift; sourceTree = "<group>"; };
 		9FC472CC1DA93B3A00FBE030 /* AllPermutationsOfString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPermutationsOfString.swift; sourceTree = "<group>"; };
 		9FC472CF1DA9403B00FBE030 /* AllPermutationsOfStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPermutationsOfStringTests.swift; sourceTree = "<group>"; };
+		9FF3D4531E5DF15300B2C166 /* MergeIntervals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
+		9FF3D4561E5DF3D400B2C166 /* MergeIntervalsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeIntervalsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +194,7 @@
 				44256BEE1E5463FA009D3294 /* MaximumSubarraySum.swift */,
 				44256BFB1E573255009D3294 /* NextPermutation.swift */,
 				44256C091E575640009D3294 /* MaxConsecutiveGap.swift */,
+				9FF3D4531E5DF15300B2C166 /* MergeIntervals.swift */,
 			);
 			name = Arrays;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 				44256BF11E546568009D3294 /* MaximumSubarrayTests.swift */,
 				44256BFE1E573271009D3294 /* NextPermutationTests.swift */,
 				44256C0C1E575658009D3294 /* MaxConsecutiveGapTests.swift */,
+				9FF3D4561E5DF3D400B2C166 /* MergeIntervalsTests.swift */,
 			);
 			name = Arrays;
 			sourceTree = "<group>";
@@ -355,6 +362,7 @@
 				9F3D6C6B1DAAB10F00911E80 /* ListNode.swift in Sources */,
 				9F7EF85D1DAC32E700DF0F6D /* AddTheNumbersRepresentedByLists.swift in Sources */,
 				9FC472CD1DA93B3A00FBE030 /* AllPermutationsOfString.swift in Sources */,
+				9FF3D4541E5DF15300B2C166 /* MergeIntervals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +381,7 @@
 				9F3D6C671DAAA04800911E80 /* IsAnagramsTests.swift in Sources */,
 				9F68E67D1D9FF1D0003EF2BA /* MinInSortedShiftedArrayTests.swift in Sources */,
 				9F68E67B1D9FF1BC003EF2BA /* MinInSortedShiftedArray.swift in Sources */,
+				9FF3D4571E5DF3D400B2C166 /* MergeIntervalsTests.swift in Sources */,
 				9F7EF8581DAAB2AF00DF0F6D /* RemoveDuplicatesInLinkedList.swift in Sources */,
 				9F3D6C681DAAA09400911E80 /* IsAnagrams.swift in Sources */,
 				44256BFF1E573271009D3294 /* NextPermutationTests.swift in Sources */,
@@ -385,6 +394,7 @@
 				4486A41C1E4CC84D00BEA153 /* BoggleSolverTests.swift in Sources */,
 				9FAEBFD81DA8F65200408356 /* MatrixChangeRowsAndLinesToZeroTests.swift in Sources */,
 				44256C0B1E575640009D3294 /* MaxConsecutiveGap.swift in Sources */,
+				9FF3D4551E5DF15800B2C166 /* MergeIntervals.swift in Sources */,
 				9FC472C81DA930C200FBE030 /* IsStringHasAllUniqueCharacters.swift in Sources */,
 				44256C0D1E575658009D3294 /* MaxConsecutiveGapTests.swift in Sources */,
 				9F68E66E1D9FEEB5003EF2BA /* AlgorithmsTests.swift in Sources */,
